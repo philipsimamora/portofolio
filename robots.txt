@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://rockydipsy.github.io/sitemap.xml
+Host: https://rockydipsy.github.io
