@@ -1,0 +1,7 @@
+.cache/
+public/
+node_modules/
+gatsby-config.js
+gatsby-node.js
+gatsby-browser.js
+gatsby-ssr.js

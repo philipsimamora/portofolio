@@ -5,8 +5,9 @@ module.exports = {
     title: 'Philip Simamora',
     description:
       'Philip Simamora is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://rockydipsy.github.io/portofolio', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    siteUrl: 'https://philipsimamora.github.io/portofolio',
+    pathPrefix: '/portofolio',
+    image: '/og.png',
     twitterUsername: '@philip_rikardo',
   },
   pathPrefix: '/portofolio',

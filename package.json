@@ -3,10 +3,10 @@
   "description": "Personal Website V4",
   "version": "1.0.0",
   "author": "Philip Simamora <philipsimamora121@gmail.com>",
-  "homepage": "https://rockydipsy.github.io/portofolio",
+  "homepage": "https://philipsimamora.github.io/portofolio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rockydipsy/portofolio"
+    "url": "https://github.com/philipsimamora/portofolio.git"
   },
   "keywords": [
     "gatsby"
@@ -25,14 +25,14 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "lint-staged": {
-  "*.{js,jsx}": [
-    "NODE_ENV=test eslint --fix",
-    "prettier --write"
-  ],
-  "*.{json,md,css}": [
-    "prettier --write"
-  ]
-},
+    "*.{js,jsx}": [
+      "NODE_ENV=test eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,css}": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.12.0",
@@ -65,7 +65,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
-    "@babel/eslint-parser": "^7.13.14",
+    "@babel/eslint-parser": "^7.28.6",
     "@babel/preset-react": "^7.13.13",
     "@upstatement/eslint-config": "^1.0.0",
     "@upstatement/prettier-config": "^1.0.0",
@@ -73,7 +73,7 @@
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react": "^7.37.5",
     "gatsby-remark-code-titles": "^1.1.0",
     "gh-pages": "^6.3.0",
     "husky": "^6.0.0",

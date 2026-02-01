@@ -2,7 +2,7 @@
 date: '2'
 title: 'SIAPSEN Mobile Application'
 cover: './Siapsen.png'
-github: 'https://github.com/rockydipsy'
+github: 'https://github.com/philipsimamora'
 external: '/#projects'
 tech:
   - Flutter

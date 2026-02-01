@@ -2,7 +2,7 @@
 date: '1'
 title: 'OMBALI Surf School Web Application'
 cover: './ombali.png'
-github: 'https://github.com/rockydipsy'
+github: 'https://github.com/philipsimamora'
 external: 'https://ombalisurfschool.com/'
 tech:
   - React
