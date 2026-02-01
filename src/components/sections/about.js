@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'React', 'Laravel', 'Node.js', 'PostgreSQL / MySQL', 'Postman', 'Jira', 'ESB / Middleware', 'Automation Testing'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Philip, an Information Systems graduate from Telkom University
+              with hands-on experience in software development and quality assurance.
+              I enjoy working on systems that require reliability, accuracy, and strong collaboration
+              between technical and business teams.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I have a passion for building web and mobile applications, designing test scenarios,I have professional experience working in the banking and enterprise environment,
+              including roles at Bank Mandiri and Bank Rakyat Indonesia, where I was involved in
+              end-to-end testing, test case design, system validation, and defect tracking for
+              critical applications and middleware services.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              In addition to quality assurance, I also have experience building web and mobile applications.
+              I’ve worked on full-stack and mobile projects using modern technologies, focusing on
+              scalable architecture, clean code, and user-oriented solutions.
+
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

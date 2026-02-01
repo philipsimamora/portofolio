@@ -166,6 +166,12 @@ const StyledProject = styled.li`
 `;
 
 const Projects = () => {
+  const IS_ENABLED = false; // 🔴 ubah ke true jika ingin tampil
+
+  if (!IS_ENABLED) {
+    return null;
+  }
+
   const data = useStaticQuery(graphql`
     query {
       projects: allMarkdownRemark(
