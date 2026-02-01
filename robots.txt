@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://rockydipsy.github.io/sitemap.xml
-Host: https://rockydipsy.github.io
+Sitemap: https://philipsimamora.github.io/sitemap.xml
+Host: https://philipsimamora.github.io
